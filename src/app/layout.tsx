@@ -17,7 +17,6 @@ import { getSession } from "@/utils/session";
 import AcessibilityProvider from "./acessibility-provider";
 import { getModifier } from "@/utils/modifier";
 import api from "@/utils/api";
-import WebChat from "@/components/WebChat";
 import Control from "@/components/Control";
 import VLibrasClient from "@/components/VLibras";
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';

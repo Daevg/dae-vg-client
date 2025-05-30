@@ -182,7 +182,6 @@ export default async function Home() {
         <AboutUs summary={summary} />
         <LatestBids values={latestBids} />
         <ImageGallery values={images} />
-        <WebChat />
       </main>
       <Footer />
     </>
