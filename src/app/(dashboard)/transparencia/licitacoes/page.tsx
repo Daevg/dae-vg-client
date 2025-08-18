@@ -82,7 +82,7 @@ async function getPage(searchParams: SearchParams) {
   const uniqueYears: string[] = [];
 
   filteredData.forEach(item => {
-    const year = item.attributes.opening_date?.split('-')[0] || item.attributes.realization.split("-")[0];
+    const year = item.attributes.opening_date?.split("-")[0] || (item.attributes.realization ? item.attributes.realization.split("-")[0] : "");
     if (!yearTracker[year]) {
       yearTracker[year] = true;
       if (!!year) {
@@ -123,3 +123,4 @@ export default async function Page({ searchParams }: { searchParams: { [key: str
     </>
   )
 }
+
