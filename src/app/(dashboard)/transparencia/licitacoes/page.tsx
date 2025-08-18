@@ -23,9 +23,9 @@ async function getPage(searchParams: SearchParams) {
     "pagination[limit]": "100"
   }
 
-  if (searchParams.tender_type) {
-    params["filters[tender_type][id]"] = searchParams.tender_type
-  }
+  // if (searchParams.tender_type) {
+  //   params["filters[tender_type][id]"] = searchParams.tender_type
+  // }
 
   if (searchParams.text) {
     params["filters[$or][0][title][$containsi]"] = searchParams.text
@@ -37,9 +37,9 @@ async function getPage(searchParams: SearchParams) {
     params["filters[$and][1][opening_date][$lte]"] = `${searchParams.year}-12-31`
   }
 
-  if (searchParams.status) {
-    params["filters[$and][2][last_status][name][$eq]"] = searchParams.status
-  }
+  // if (searchParams.status) {
+  //   params["filters[$and][2][last_status][name][$eq]"] = searchParams.status
+  // }
 
   let total = 1;
   let pageNum = 0;
