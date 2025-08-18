@@ -24,11 +24,7 @@ const Services = ({ values }: IServiceProps) => {
           >
             <Text
               as="a"
-              href={
-                session.status === "authenticated"
-                  ? val.href
-                  : `/acesso?callbackUrl=${val.href}`
-              }
+              href={val.href}
               target={session.status === "authenticated" ? "_blank" : "_self"}
               rel="noopener noreferrer"
               className="text-base flex flex-col items-center gap-2 justify-around sm:flex-row px-2 py-4 md:p-4"
