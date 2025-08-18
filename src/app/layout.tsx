@@ -19,6 +19,7 @@ import { getModifier } from "@/utils/modifier";
 import api from "@/utils/api";
 import Control from "@/components/Control";
 import VLibrasClient from "@/components/VLibras";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
 
 SwiperCore.use([Navigation]);
@@ -47,6 +48,7 @@ export default async function RootLayout({
               {children}
               <Control />
               <VLibrasClient />
+              <WhatsAppButton />
             </AcessibilityProvider>
           </AppRouterCacheProvider>
         </SessionProvider>
