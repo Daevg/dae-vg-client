@@ -96,8 +96,8 @@ export default async function Page() {
                 ))
               }
             </ul>
-          </div>
         )
+      }
       <div className="my-10 lg:my-20 text-primary-500 dark:text-white-0">
         <h2 className="text-3xl py-5 border-b-2 border-primary-500 dark:border-white-0 font-semibold mb-4">Contato</h2>
         <p>www.daevg.com.br</p>
