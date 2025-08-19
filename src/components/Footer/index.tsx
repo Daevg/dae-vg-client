@@ -13,16 +13,24 @@ const Footer = () => {
           </div>
         </div>
         <ul className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {/* <li>
+          <li>
             <Text as="h3" className="text-2xl font-semibold mb-3">Rede Social</Text>
             <div className="flex flex-col gap-4">
-              <Text className="font-light text-base">@daevarzeagrande</Text>
+              <Link href="https://www.instagram.com/dae.vg" target="_blank">
+                <Image src="/instagram_icon.png" alt="Instagram" width={32} height={32} />
+              </Link>
             </div>
-          </li> */}
+          </li>
           <li>
-            <Text className="text-2xl font-semibold mb-3">Agência Comercial</Text>
+            <Text className="text-2xl font-semibold mb-3">Agência do Comercial Centro</Text>
             <div className="flex flex-col gap-4">
-              <Text as="a" href="https://maps.app.goo.gl/YVn1wZqQzqBDhHvw8" className="font-light text-base" target="_blank">Av. Castelo Branco, 245</Text>
+              <Text as="a" href="https://maps.app.goo.gl/YVn1wZqQzqBDhHvw8" className="font-light text-base" target="_blank">Av Castelo Branco, 325, Centro Norte - Várzea Grande</Text>
+            </div>
+          </li>
+          <li>
+            <Text className="text-2xl font-semibold mb-3">Ganha Tempo Cristo Rei</Text>
+            <div className="flex flex-col gap-4">
+              <Text as="a" href="https://maps.app.goo.gl/YVn1wZqQzqBDhHvw8" className="font-light text-base" target="_blank">Rua Prof.ª Isabel Pinto, 212 – Cristo Rei - Várzea Grande</Text>
             </div>
           </li>
           <li>

@@ -99,6 +99,33 @@ export default async function Page() {
           </div>
         )
       }
+      }
+      <div className="my-10 lg:my-20 text-primary-500 dark:text-white-0">
+        <h2 className="text-3xl py-5 border-b-2 border-primary-500 dark:border-white-0 font-semibold mb-4">Contato</h2>
+        <p>www.daevg.com.br</p>
+        <p>Instagram @dae.vg</p>
+        <p>0800 777 4442 (Whatsapp e ligação)</p>
+        <p>65 99304-1078 (Whatsapp exclusivo para reclamação de vazamentos)</p>
+
+        <h2 className="text-3xl py-5 border-b-2 border-primary-500 dark:border-white-0 font-semibold mb-4 mt-10">OUVIDORIA</h2>
+        <p>Endereço: Av. Castelo Branco, nº 245 - Bairro Centro</p>
+        <p>Telefone: (65) 9 9328-6141</p>
+        <p>E-mail: ouvidoria@daevg.com.br</p>
+        <p>Ouvidora: Daniela Arruda de Oliveira</p>
+
+        <h2 className="text-3xl py-5 border-b-2 border-primary-500 dark:border-white-0 font-semibold mb-4 mt-10">DAE - Agência do Comercial Centro</h2>
+        <p>Av Castelo Branco, 325, Centro Norte - Várzea Grande - MT</p>
+        <p>Cep: 78110-002</p>
+        <p>De segunda a sexta-feira das 7h30 às 17h</p>
+        <p>Sábado das 7h30 às 11h</p>
+
+        <h2 className="text-3xl py-5 border-b-2 border-primary-500 dark:border-white-0 font-semibold mb-4 mt-10">DAE - Ganha Tempo Cristo Rei</h2>
+        <p>Rua Prof.ª Isabel Pinto, 212 – Cristo Rei</p>
+        <p>De segunda a sexta-feira das 8h às 17h</p>
+
+        <h2 className="text-3xl py-5 border-b-2 border-primary-500 dark:border-white-0 font-semibold mb-4 mt-10">DAE - Sede Administrativa</h2>
+        <p>Av. Julio Campos, 2599, Jardim dos Estados - Várzea Grande-MT.</p>
+      </div>
     </section>
   )
 }
