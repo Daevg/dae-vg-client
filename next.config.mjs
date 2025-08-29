@@ -16,18 +16,6 @@ const nextConfig = {
         port: "1337",
         pathname: "/uploads/*",
       }
-    ],
-  },
-  async redirects() {
-    return [
-      {
-        source: '/transparencia/licitacoes',
-        destination: 'https://licitacoes.daevg.com.br/licitacoes',
-        permanent: true,
-      },
-    ]
-  },
-};
+    ],};
 
 export default nextConfig;
-
